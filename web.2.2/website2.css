@@ -135,7 +135,6 @@ p {
     width: 100%;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .kartu-parner {
@@ -177,10 +176,20 @@ h3 {
 }
 
 #copyright {
-    background-color: aqua;
+    background-color: rgba(255, 36, 2, 0.941);
+    color: rgb(62, 67, 90);
     text-align: center;
     width: 100%;
     padding: 30px 0px 30px 0px;
+    font-size: 22px;
+}
+
+.footer-section p {
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 991.98px) {
